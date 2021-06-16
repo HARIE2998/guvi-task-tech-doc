@@ -1,0 +1,93 @@
+
+.left{
+    background-color: rgb(214, 214, 214);
+    width:20%;
+    float: left;
+    height: 720px;
+    font-family: Arial,Verdana,Tahoma;
+    
+}
+
+.right{
+    background-color:white;
+    width:80%;
+    margin: 0 auto;
+    float: right;
+    height: 700px;
+    font-family: Arial,Verdana,Tahoma;
+    font-weight: 400;
+    line-height: 1.429;
+    font-size: large;
+    
+}
+
+.left ul li{    
+    font-family: Arial,Verdana,Tahoma;
+    font-size: 15px;
+    line-height: 26px;
+    padding: 2px 2px 2px 0px;
+    border-bottom: 1px dotted #bbb;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.left ul li::before{
+    content: "\229E";
+    margin-right:20px;
+    font-size: xx-small;
+}
+
+.left-head{
+    display: block;
+    margin: 0px;
+    border: 20px;
+    padding: 6px;
+    background-color: #f8ba24;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial,Verdana,Tahoma;
+}
+
+
+.right .para{
+    display: block;
+    margin: 10px;
+    padding-bottom: 20px;
+    font-size: large;
+
+}
+
+.right .para span{
+    font-weight: bold;
+}
+
+#right-head{
+    display: block;
+    margin:10px;
+    padding: 5px;
+
+    font-size: 25px;
+}
+
+.para-1{
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  
+}
+
+.para-1 span{
+    font-weight: bold;
+}
+
+.right ul li{
+    line-height: 40px;
+   
+}
+
+.right ul li span{
+    font-weight: bold;
+}
